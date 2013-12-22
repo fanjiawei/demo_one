@@ -4,6 +4,16 @@
 
 这是一个`shazizm`和`heibuliuqiu`一起维护的 实验项目
 
+>**备注：**
+
+>`$`git remote add origin https://github.com/shazizm/demo_one.git
+
+>// Creates a remote named "origin" pointing at your GitHub repository
+
+>`$`git push origin master
+
+>// Sends your commits in the "master" branch to GitHub 
+
 --------------
 [TOC]
 
@@ -32,3 +42,5 @@
 <span class="glyphicon-pencil"></span>进度
 -------------
 >还没想好下面要写啥
+
+
