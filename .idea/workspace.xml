@@ -309,15 +309,15 @@
       <changelist id="c7a35cfe-2f36-49f9-bf86-9aefb7aca6d5" name="Default" comment="" />
       <created>1387706002100</created>
       <updated>1387706002100</updated>
-      <workItem from="1387706011513" duration="1133000" />
+      <workItem from="1387706011513" duration="1714000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1133000" />
+    <option name="totallyTimeSpent" value="1714000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
+    <frame x="54" y="-8" width="1320" height="784" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -394,6 +394,7 @@
           <value>
             <GrailsSettings>
               <option name="buildConfigCrc" value="-718419878" />
+              <option name="pluginDependenciesCrc" value="-115719409" />
               <option name="properties">
                 <map>
                   <entry key="grails.global.plugins.dir" value="F:\.grails\2.3.4\global-plugins" />
@@ -403,6 +404,11 @@
                 </map>
               </option>
             </GrailsSettings>
+          </value>
+        </entry>
+        <entry key="demo_one-grailsPlugins">
+          <value>
+            <GrailsSettings />
           </value>
         </entry>
       </map>
