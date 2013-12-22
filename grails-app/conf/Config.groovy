@@ -119,25 +119,17 @@ log4j = {
 
 }
 
-//grails.plugin.springsecurity.userLookup.userDomainClassName = 'cn.hiplan.auth.User'
-//grails.plugin.springsecurity.userLookup.authorityJoinClassName = 'cn.hiplan.auth.UserRole'
-//grails.plugin.springsecurity.authority.className = 'cn.hiplan.auth.Role'
-//grails.plugin.springsecurity.requestMap.className = 'cn.hiplan.auth.RequestMap'
-//grails.plugin.springsecurity.securityConfigType = 'Requestmap'
-//grails.plugin.springsecurity.rememberMe.persistent = true
-//grails.plugin.springsecurity.rememberMe.persistentToken.domainClassName = 'cn.hiplan.auth.PersistentToken'
-
 // Added by the Spring Security Core plugin:
-grails.plugin.springsecurity.userLookup.userDomainClassName = 'com.sj.security.User'
-grails.plugin.springsecurity.userLookup.authorityJoinClassName = 'com.sj.security.UserRole'
-grails.plugin.springsecurity.authority.className = 'com.sj.security.Role'
-grails.plugin.springsecurity.requestMap.className = 'com.sj.security.RequestMap'
+grails.plugin.springsecurity.userLookup.userDomainClassName = 'com.share3d.security.User'
+grails.plugin.springsecurity.userLookup.authorityJoinClassName = 'com.share3d.security.UserRole'
+grails.plugin.springsecurity.authority.className = 'com.share3d.security.Role'
+grails.plugin.springsecurity.requestMap.className = 'com.share3d.security.RequestMap'
 grails.plugin.springsecurity.securityConfigType = 'Requestmap'
 grails.plugin.springsecurity.rememberMe.cookieName='remember'
 grails.plugin.springsecurity.rememberMe.parameter='remember_me'
-grails.plugin.springsecurity.rememberMe.key='20131207sj'
+grails.plugin.springsecurity.rememberMe.key='20131222share3d'
 grails.plugin.springsecurity.rememberMe.persistent = true
-grails.plugin.springsecurity.rememberMe.persistentToken.domainClassName = 'com.sj.security.PersistentToken'
+grails.plugin.springsecurity.rememberMe.persistentToken.domainClassName = 'com.share3d.security.PersistentToken'
 grails.plugin.springsecurity.rememberMe. alwaysRemember=true
 grails.plugin.springsecurity.apf.filterProcessesUrl='/check'
 grails.plugin.springsecurity.apf.usernameParameter='username'
@@ -168,3 +160,4 @@ grails {
                 "mail.smtp.socketFactory.fallback": "false"]
     }
 }
+
